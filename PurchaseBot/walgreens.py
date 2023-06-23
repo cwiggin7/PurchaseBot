@@ -77,3 +77,4 @@ class Walgreens:
         # Click the "Add for shipping" button
         add_to_cart_button = self.browser.driver.find_element(By.ID, "receiveing-addToCartbtn")
         add_to_cart_button.click()
+        
